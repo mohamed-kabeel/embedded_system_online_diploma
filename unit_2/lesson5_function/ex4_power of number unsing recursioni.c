@@ -14,6 +14,6 @@ int main()
    scanf("%u",&b);
    printf("Enter power number(positive integer): ");
    scanf("%u",&e);
-  printf("%u",pow(b,e));
+  printf("%d^%d = %u",b,e,pow(b,e));
 
 }

@@ -11,6 +11,6 @@ for(int i =0;i<len;i++)
     rev[i] = str[len-i-1];
 }
 rev[len] = NULL;
-printf("%s",rev);
+printf("Reverse string is: %s",rev);
 
 }

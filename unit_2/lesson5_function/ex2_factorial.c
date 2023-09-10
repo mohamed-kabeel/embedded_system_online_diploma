@@ -18,5 +18,5 @@ int main()
     if(f == NULL)
         printf("you enter negative number");
     else
-       printf("%d",f);
+       printf("factorial of %d = %d",n,f);
 }

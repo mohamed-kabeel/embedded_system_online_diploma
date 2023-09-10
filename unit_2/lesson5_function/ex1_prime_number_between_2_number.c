@@ -16,6 +16,7 @@ int main(){
     int a,b;
     printf("Enter the two number(intervals): ");
     scanf("%d %d",&a,&b);
+    printf("prime number between %d and %d are: ",a,b);
     prime_interval(a,b);
 
 
