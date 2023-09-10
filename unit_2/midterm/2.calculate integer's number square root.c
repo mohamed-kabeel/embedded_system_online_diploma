@@ -8,6 +8,6 @@ int main(){
     printf("please enter the number: ");
     int x ;
     scanf("%d",&x);
-    printf("the square root  = %.2f",square_root(x));
+    printf("the square root  = %.3f",square_root(x));
 
 }
